@@ -7,13 +7,16 @@ for i in l:
     d.update({i:s})
     k.append(s)
 m=max(k)
-c=0
-for x,y in d.items():
-    if c==0:
-        if y==m:
-            print(x,end="")
-            c+=1
-    else:   
-        if y==m:
-            print("",x,end="")
+if m==1:
+    print("unique")
+else:
+    c=0
+    for x,y in d.items():
+        if c==0:
+            if y==m:
+                print(x,end="")
+                c+=1
+        else:   
+            if y==m:
+                print("",x,end="")
     
