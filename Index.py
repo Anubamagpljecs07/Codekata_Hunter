@@ -8,5 +8,5 @@ for i in range(0,len(l)):
             print(i,end="")
         else:
             print("",i,end="")
-else:
+if c==0:
     print("-1")
