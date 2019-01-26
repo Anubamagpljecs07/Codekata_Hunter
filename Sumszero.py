@@ -1,4 +1,4 @@
-#anug
+#ganu
 n=int(input())
 l=[int(i) for i in input().split()]
 y=[]
@@ -17,7 +17,7 @@ for i in range(len(l)):
                 y.append(l[i])  
                 y.append(l[j])
                 i=i+1
-for h in range(0,len(y)):
+for h in range(0,2):
     if h==0:
         print(y[h],end="")
     else:
