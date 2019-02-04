@@ -10,7 +10,7 @@ def isprime(x):
 	return a
 m,n=map(int,input().split())
 c=0
-for i in range(m+1,n):
+for i in range(m,n):
 	r=0
 	while i!=0:
 		g=i%10
