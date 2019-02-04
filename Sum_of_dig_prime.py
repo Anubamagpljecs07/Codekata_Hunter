@@ -17,6 +17,7 @@ for i in range(m+1,n):
 		r=r+g
 		i=i//10
 	if isprime(r)==1:
-		c+=1
+		if r!=1:
+			c+=1
 print(c)
 			
