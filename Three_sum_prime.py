@@ -28,10 +28,14 @@ if len(g)>3:
         h.append(m)
         g.remove(m)
         c+=1
-s=0
-for i in h:
-    s=s+i
-for i in g:
-    if i+s==n:
-        h.append(i)
-print(*h)
+    s=0
+    for i in h:
+        s=s+i
+    for i in g:
+        if i+s==n:
+            h.append(i) 
+    print(*h)
+else:
+    print(*g)
+
+
