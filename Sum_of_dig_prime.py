@@ -1,3 +1,4 @@
+#ganu
 def isprime(x):
 	c=0
 	for i in range(2,x):
