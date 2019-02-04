@@ -1,7 +1,8 @@
 def isprime(x):
 	c=0
 	for i in range(2,x):
-		c+=1
+		if x%i==0:
+			c+=1
 	if c==0:
 		a=1
 	else:
@@ -10,15 +11,11 @@ def isprime(x):
 n=int(input())
 g=[]
 for i in range(2,n+1):
-	print(i)
-	if isprime(i)==1:
-		print(i)
+	c=isprime(i)
+	if c==1:
 		a=str(i)
-		print(a)
-		if a[-1]==3:
-			print(i)
+		if a[-1]=="3":
 			g.append(i)
-			print(g)
 s=0
 for i in g:
 	s=s+i
