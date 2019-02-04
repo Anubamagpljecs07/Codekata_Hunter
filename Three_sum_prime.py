@@ -26,7 +26,6 @@ if len(g)>3:
     while c<2:
         m=min(g)
         h.append(m)
-        print(h)
         g.remove(m)
         c+=1
 s=0
