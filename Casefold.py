@@ -1,3 +1,4 @@
+n=int(input())
 m=input()
 s=list(m.split(" "))
 g=[]
