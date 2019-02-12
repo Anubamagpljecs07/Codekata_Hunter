@@ -14,6 +14,7 @@ for i in range(1,n):
         g.append(i)
 g=sorted(g)
 if len(g)!=0:
-    print(*g)
+    for i in g:
+        print(i,end=" ")
 else:
     print(0)
