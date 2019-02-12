@@ -3,9 +3,13 @@ l=[]
 for i in range(0,n):
     l.append(input().split())
 m=l[0]
-for i in l:
-    for j in m:
-        if j not in i:
-            m.remove(j)
+n=len(m)
+for i in range(0,len(l)):
+    j=0
+    while j <len(m):
+        if m[j] not in l[i]:
+            del m[j]
+            j-=1
+        j+=1
+m=sorted(m)
 print(*m)
-
