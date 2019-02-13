@@ -11,13 +11,13 @@ s=0
 for i in h:
     s=s+int(i)
 a=s/len(h)
-g=round(a,5)
+g=round(a,6)
 g=str(g)
 c=0
 for i in range(len(g)):
     if g[i]==".":
         a=len(g)-1-i
         if a<5:
-            for i in range(5-a):
+            for i in range(6-a):
                 g=g+'0'
 print(g)
