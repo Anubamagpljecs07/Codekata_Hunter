@@ -1,4 +1,4 @@
-#g
+#anuma
 s=input()
 f=""
 i,c=0,1
