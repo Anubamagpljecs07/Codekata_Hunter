@@ -8,7 +8,8 @@ for i in range(0,len(s)):
 			g=g+s[i]
 			c+=1
 		else:
-			l.append(g)
+			if len(g)>=2:
+				l.append(g)
 			g=""
 			c=0
 	else:
@@ -16,7 +17,8 @@ for i in range(0,len(s)):
 			g=g+s[i]
 			c+=1
 		else:
-			l.append(g)
+			if len(g)>=2:
+				l.append(g)
 			g=""
 			c=0
 	if i==len(s)-1:
