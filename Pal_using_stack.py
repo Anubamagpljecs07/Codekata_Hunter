@@ -32,7 +32,7 @@ for i in range((len(a)//2),len(a)):
         break
     
 if s.is_empty() and is_pal:
-    print("yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")
 
